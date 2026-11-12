@@ -10,7 +10,6 @@ Está dirigida principalmente a:
 - Personas que trabajan en oficinas: que prefieren planificar sus comidas y evitar comprar almuerzo todos los días.
 - Empresas y restaurantes: que quieren ofrecer planes de almuerzos recurrentes y administrar sus reservas.
 
-## Cómo se ejecutaría?
 
 ## ¿Cómo se ejecutaría?
 
