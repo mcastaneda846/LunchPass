@@ -12,8 +12,39 @@ Está dirigida principalmente a:
 
 ## Cómo se ejecutaría?
 
+## ¿Cómo se ejecutaría?
+
+### Requisitos previos
+- Tener [Docker](https://www.docker.com/) instalado.
+- Tener Docker Compose disponible.
+
+### Ejecución
+
+1. Clonar el repositorio:
+   ```bash
+   git clone https://github.com/mcastaneda846/LunchPass.git
+   ```
+
+2. Ingresar a la carpeta del proyecto:
+   ```bash
+   cd lunchpass
+   ```
+
+3. Construir las imágenes e iniciar los contenedores:
+   ```bash
+   docker compose up --build -d
+   ```
+
+4. Acceder a la aplicación desde el navegador:
+   ```text
+   http://localhost:5173
+   ```
+
+### Detener la aplicación
+
+Para detener los contenedores:
 ```bash
-docker compose up --build -d
+docker compose down
 ```
 
 ## Qué se comprobaría?
